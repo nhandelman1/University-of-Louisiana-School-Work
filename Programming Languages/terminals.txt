@@ -1,0 +1,14 @@
+begin
+end
+read
+write
+ID
+INTLIT
++
+-
+,
+(
+)
+=
+;
+$

@@ -1,0 +1,22 @@
+<idListMid> ::= , ID <idListMid> 
+<exprMid> ::= <addOp> <primary> <exprMid> 
+<expr> ::= <primary> <exprMid> 
+<primary> ::= ( <expr> ) 
+<statement> ::= write ( <exprList> ) ; 
+<primary> ::= INTLIT 
+<program> ::= begin <statementList> end 
+<idListMid> ::= 
+<statement> ::= read ( <idList> ) ; 
+<exprListMid> ::= , <expr> <exprListMid> 
+<exprList> ::= <expr> <exprListMid> 
+<primary> ::= ID 
+<statementList> ::= <statement> <statementListMid> 
+<statementListMid> ::= <statement> <statementListMid> 
+<idList> ::= ID <idListMid> 
+<addOp> ::= - 
+<addOp> ::= + 
+<exprListMid> ::= 
+<statementListMid> ::= 
+<statement> ::= ID = <expr> ; 
+<S> ::= <program> $ 
+<exprMid> ::= 

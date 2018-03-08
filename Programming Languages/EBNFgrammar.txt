@@ -1,0 +1,14 @@
+<program> ::= begin <statementList> end
+<statementList> ::= <statement> { <statement> }
+<statement> ::= ID = <expr> ;
+<statement> ::= read ( <idList> ) ;
+<statement> ::= write ( <exprList> ) ;
+<idList> ::= ID { , ID }
+<exprList> ::= <expr> { , <expr> }
+<expr> ::= <primary> { <addOp> <primary> }
+<primary> ::= ( <expr> )
+<primary> ::= ID
+<primary> ::= INTLIT
+<addOp> ::= +
+<addOp> ::= -
+<S> ::= <program> $
