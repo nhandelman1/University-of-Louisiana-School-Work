@@ -1,0 +1,9 @@
+.I d2.txt
+comput 2 0.67
+data 1 0.33
+field 1 0.33
+inform 1 0.33
+mine 1 0.33
+retriev 1 0.33
+scienc 3 1.00
+softwar 1 0.33

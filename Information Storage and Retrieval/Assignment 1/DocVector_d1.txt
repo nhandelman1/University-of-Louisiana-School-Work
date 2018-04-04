@@ -1,0 +1,8 @@
+.I d1.txt
+data 3 1.00
+field 1 0.33
+inform 1 0.33
+java 1 0.33
+languag 1 0.33
+mine 2 0.67
+retriev 1 0.33

@@ -1,0 +1,5 @@
+.I d4.txt
+algorithm 3 1.00
+comput 2 0.67
+data 1 0.33
+scienc 1 0.33

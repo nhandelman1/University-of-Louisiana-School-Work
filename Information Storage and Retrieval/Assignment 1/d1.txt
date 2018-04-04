@@ -1,0 +1,1 @@
+Java language can be used in the field of Information Retrieval and Data Mining. A lot of data should be treated in data mining.

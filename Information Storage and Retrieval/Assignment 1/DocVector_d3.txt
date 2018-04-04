@@ -1,0 +1,5 @@
+.I d3.txt
+java 3 1.00
+popular 1 0.33
+softwar 2 0.67
+written 1 0.33
